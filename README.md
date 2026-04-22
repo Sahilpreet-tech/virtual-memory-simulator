@@ -10,4 +10,4 @@
 
 ```bash
 gcc main.c paging.c segmentation.c -o vm
-./vm
+./vm.exe
