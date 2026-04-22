@@ -1,19 +1,13 @@
-# 🧠 Virtual Memory Management Simulator
+# Virtual Memory Simulator (C Language)
 
-## 📌 About Project
-This project simulates Operating System Virtual Memory concepts:
+## Features
+- FIFO Page Replacement
+- LRU Page Replacement
+- Optimal Algorithm
+- Segmentation with Fragmentation
 
-- FIFO Page Replacement Algorithm
-- LRU Page Replacement Algorithm
-- Optimal Page Replacement Algorithm
-- Segmentation Memory Allocation
-- Page Fault Visualization
-- Analytics Dashboard
+## How to Run
 
----
-
-## 🚀 How to Run
-
-### Install dependencies
 ```bash
-pip install -r requirements.txt
+gcc main.c paging.c segmentation.c -o vm
+./vm
